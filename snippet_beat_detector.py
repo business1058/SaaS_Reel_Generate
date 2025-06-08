@@ -76,7 +76,7 @@ def main():
         print(f"✅ Audio loaded: {self.duration:.2f}s, Genre: {genre}")
 
         # Gemini API configuration
-        self.gemini_api_key = "AIzaSyCmoJhOud7q9rpgon5l5npz_aij1_6hts0"
+        self.gemini_api_key = ""
         self.gemini_endpoint = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
 
         # Genre-specific parameters
